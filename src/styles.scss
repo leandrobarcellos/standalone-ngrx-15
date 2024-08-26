@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+.flex {
+  display: flex;
+
+  &.row {
+    flex-direction: row;
+  }
+
+  &.col {
+    flex-direction: column;
+  }
+
+  &.space-around {
+    justify-content: space-around;
+  }
+
+  &.max-width {
+    min-width: 100%;
+  }
+
+  &.gap-1rem {
+    gap: 1rem;
+  }
+}
+
+.margin {
+  &.bottom-10,
+  &.top-bottom-10 {
+    margin-bottom: 10px;
+  }
+
+  &.upper-10,
+  &.top-bottom-10 {
+    margin-top: 10px;
+  }
+
+
+}

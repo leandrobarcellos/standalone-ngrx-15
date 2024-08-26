@@ -1,0 +1,14 @@
+<p>
+  First Sub works!
+</p>
+<form [formGroup]="form">
+  <input type="text" formControlName="inputText">
+  <input type="date" formControlName="inputDate">
+  <form formGroupName="inner">
+    <input type="number" formControlName="inputNumber">
+  <input type="email" formControlName="inputEmail">
+  </form>
+
+</form>
+<button (click)="backHome()">First Home</button>
+<button (click)="goSecond()">Second</button>
